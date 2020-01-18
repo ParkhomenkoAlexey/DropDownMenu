@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F069599C23D374CB002DAB6A /* OutlineItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F069599B23D374CB002DAB6A /* OutlineItemCell.swift */; };
 		F0D9B01D23D3308D002D8A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9B01C23D3308D002D8A34 /* AppDelegate.swift */; };
 		F0D9B01F23D3308D002D8A34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9B01E23D3308D002D8A34 /* SceneDelegate.swift */; };
 		F0D9B02123D3308D002D8A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9B02023D3308D002D8A34 /* ViewController.swift */; };
@@ -14,9 +15,12 @@
 		F0D9B02623D33092002D8A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D9B02523D33092002D8A34 /* Assets.xcassets */; };
 		F0D9B02923D33092002D8A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D9B02723D33092002D8A34 /* LaunchScreen.storyboard */; };
 		F0D9B03123D33362002D8A34 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9B03023D33362002D8A34 /* DropDownCell.swift */; };
+		F0D9B03323D35DF3002D8A34 /* CompositionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9B03223D35DF3002D8A34 /* CompositionalViewController.swift */; };
+		F0D9B03523D35FB1002D8A34 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9B03423D35FB1002D8A34 /* TextCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F069599B23D374CB002DAB6A /* OutlineItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineItemCell.swift; sourceTree = "<group>"; };
 		F0D9B01923D3308D002D8A34 /* DropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D9B01C23D3308D002D8A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0D9B01E23D3308D002D8A34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		F0D9B02823D33092002D8A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0D9B02A23D33092002D8A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D9B03023D33362002D8A34 /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		F0D9B03223D35DF3002D8A34 /* CompositionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalViewController.swift; sourceTree = "<group>"; };
+		F0D9B03423D35FB1002D8A34 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				F0D9B01C23D3308D002D8A34 /* AppDelegate.swift */,
 				F0D9B01E23D3308D002D8A34 /* SceneDelegate.swift */,
 				F0D9B02023D3308D002D8A34 /* ViewController.swift */,
+				F0D9B03223D35DF3002D8A34 /* CompositionalViewController.swift */,
+				F069599B23D374CB002DAB6A /* OutlineItemCell.swift */,
+				F0D9B03423D35FB1002D8A34 /* TextCell.swift */,
 				F0D9B03023D33362002D8A34 /* DropDownCell.swift */,
 				F0D9B02223D3308D002D8A34 /* Main.storyboard */,
 				F0D9B02523D33092002D8A34 /* Assets.xcassets */,
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F069599C23D374CB002DAB6A /* OutlineItemCell.swift in Sources */,
 				F0D9B02123D3308D002D8A34 /* ViewController.swift in Sources */,
 				F0D9B01D23D3308D002D8A34 /* AppDelegate.swift in Sources */,
 				F0D9B03123D33362002D8A34 /* DropDownCell.swift in Sources */,
+				F0D9B03323D35DF3002D8A34 /* CompositionalViewController.swift in Sources */,
+				F0D9B03523D35FB1002D8A34 /* TextCell.swift in Sources */,
 				F0D9B01F23D3308D002D8A34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
