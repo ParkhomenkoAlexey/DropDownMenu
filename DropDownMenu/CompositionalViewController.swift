@@ -50,13 +50,7 @@ class CompositionalViewController: UIViewController {
     var outlineCollectionView: UICollectionView! = nil
     var currentSnapshot: NSDiffableDataSourceSnapshot<Section, Int>! = nil
     
-//    private lazy var menuItems: [OutlineItem] = [
-//        OutlineItem(title: "First Level 1", indentLevel: 0, subitems: [
-//            OutlineItem(title: "Second level 1", indentLevel: 1, name: "1"),
-//            OutlineItem(title: "Second level 2", indentLevel: 1, name: "2")]
-//        ),
-//        OutlineItem(title: "First Level 2", indentLevel: 0)
-//    ]
+
     
     private lazy var menuItems: [OutlineItem] = [
         OutlineItem(title: "write text", indentLevel: 0, name: "0.0"),
@@ -93,7 +87,7 @@ class CompositionalViewController: UIViewController {
                 for: indexPath) as? OutlineItemCell else { fatalError("Could not create new cell") }
             cell.label.text = menuItem.title
             cell.indentLevel = menuItem.indentLevel
-            cell.isGroup = menuItem.isGroup
+            cell.isGroup  = menuItem.isGroup
             cell.isExpanded = menuItem.isExpanded
             return cell
         }

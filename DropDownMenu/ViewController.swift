@@ -52,6 +52,7 @@ class ViewController: UIViewController {
     // MARK: - Init
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         view.addSubview(colorView)
         colorView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         colorView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
@@ -135,13 +136,13 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let color = Colors(rawValue: indexPath.row) else { return }
         colorView.backgroundColor = color.color
-        switch indexPath.row {
-        case 0:
-            print("rere")
-            tableView.insertRows(at: [IndexPath(item: 0, section: 0)], with: .fade)
-        default:
-            print("rerfdfde")
-        }
+//        switch indexPath.row {
+//        case 0:
+//            print("rere")
+//            tableView.insertRows(at: [IndexPath(item: 0, section: 0)], with: .fade)
+//        default:
+//            print("rerfdfde")
+//        }
     }
 }
 
